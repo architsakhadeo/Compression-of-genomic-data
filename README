@@ -1,0 +1,19 @@
+***COMPRESSION STARTS***
+
+python freq_index.py
+
+python huffman.py
+
+python bin2ascii.py
+			
+****COMPRESSION ENDS***
+
+***DECOMPRESSION STARTS***
+
+python ascii2bin.py
+
+python dehuffman.py
+
+python defreq_deindex.py
+
+***DECOMPRESSION ENDS***
