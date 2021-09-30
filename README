@@ -1,24 +1,26 @@
-"input_file.txt" is the input genome file on which we apply compression.
+`input_file.txt` is the input genome file on which we apply compression.
 
-***COMPRESSION STARTS***
+## Processing stages
 
-	python freq_index.py
+**COMPRESSION STARTS**
 
-	python huffman.py
+	`python freq_index.py`
 
-	python bin2ascii.py
+	`python huffman.py`
+
+	`python bin2ascii.py`
 			
-****COMPRESSION ENDS***
+**COMPRESSION ENDS**
 
-***DECOMPRESSION STARTS***
+**DECOMPRESSION STARTS**
 
-	python ascii2bin.py
+	`python ascii2bin.py`
 
-	python dehuffman.py
+	`python dehuffman.py`
 
-	python defreq_deindex.py
+	`python defreq_deindex.py`
 
-***DECOMPRESSION ENDS***
+**DECOMPRESSION ENDS**
 
 
 For detailed information, check "Procedure" file.
